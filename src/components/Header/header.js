@@ -1,6 +1,4 @@
 import React from 'react'
-import BGImage from '../../Images/companyPhoto.jpg'
-import Image from '../../Images/ds-logo.png'
 import HeaderImage from './headerImage'
 
 const header = () => {
