@@ -16,13 +16,13 @@ const homeSection1 = () => {
                         Providing complete residential and commercial landscaping solutions for property
                         owners and managers. Customizing design and installation to create immaculate properties.
                      Contact us today for a free quote on your next landscaping project!</p>
-                    <p className='text-dark p-2 font-weight-bold w-25 mx-auto'
+                    <button className='btn text-dark p-2 font-weight-bold w-25 mx-auto'
                         style={{
                             background: '#F70079',
                             boxShadow: '0px 0px 0px 4px #006738',
                             borderRadius: '1rem',
                             fontSize: '1.5rem'
-                        }}>407-671-4800</p>
+                        }}>407-671-4800</button>
                 </div>
 
                 <div className='col-md-6 bg-light pt-3' style={{
