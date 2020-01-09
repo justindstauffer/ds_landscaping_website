@@ -16,7 +16,7 @@ const homeSection1 = () => {
                         Providing complete residential and commercial landscaping solutions for property
                         owners and managers. Customizing design and installation to create immaculate properties.
                      Contact us today for a free quote on your next landscaping project!</p>
-                    <button className='btn text-dark p-2 font-weight-bold w-25 mx-auto'
+                    <button className='btn text-dark p-2 font-weight-bold mx-auto'
                         style={{
                             background: '#F70079',
                             boxShadow: '0px 0px 0px 4px #006738',
