@@ -7,7 +7,6 @@ function homeSection3() {
     return (
         <div className="bg-light p-4">
 
-
             <div style={{
                 display: 'flex',
                 flexDirection: 'row',

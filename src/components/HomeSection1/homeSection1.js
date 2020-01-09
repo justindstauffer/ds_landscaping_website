@@ -3,10 +3,9 @@ import { Table } from 'reactstrap';
 
 const homeSection1 = () => {
     return (
-        <div className="bg-light">
+        <div className="bg-light p-md-4">
             <div className="row bg-light" style={{
                 margin: '0',
-                paddingBottom: '1rem'
             }}>
 
                 <div className='col-md-6 bg-light p-3' style={{
@@ -17,19 +16,21 @@ const homeSection1 = () => {
                         Providing complete residential and commercial landscaping solutions for property
                         owners and managers. Customizing design and installation to create immaculate properties.
                      Contact us today for a free quote on your next landscaping project!</p>
-                    <button className='btn text-dark p-2 font-weight-bold'
+                    <p className='text-dark p-2 font-weight-bold w-25 mx-auto'
                         style={{
                             background: '#F70079',
-                            boxShadow: '0px 0px 0px 4px #006738'
-                        }}>407-671-4800</button>
+                            boxShadow: '0px 0px 0px 4px #006738',
+                            borderRadius: '1rem',
+                            fontSize: '1.5rem'
+                        }}>407-671-4800</p>
                 </div>
 
                 <div className='col-md-6 bg-light pt-3' style={{
                     margin: '0',
                 }}>
-                    <h1>Where We Service</h1>
-                    <div className="p-1">
-                        <Table bordered>
+                    <h1>Areas We Service</h1>
+                    <div className="pt-1">
+                        <Table borderless>
                             <tbody>
                                 <tr>
                                     <td>Orlando</td>
@@ -51,7 +52,7 @@ const homeSection1 = () => {
                     </div>
                 </div>
             </div>
-            <hr style={{margin: '0', paddingBottom: '2rem'}} />
+            
         </div>
     )
 }
