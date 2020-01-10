@@ -13,13 +13,13 @@ const Example = (props) => {
                 <Col md={6}>
                     <FormGroup>
                         <Label for="name">Name</Label>
-                        <Input type="text" name="name" id="name" placeholder="Enter your name" />
+                        <Input type="text" name="name" id="name" placeholder="Enter your name" required/>
                     </FormGroup>
                 </Col>
                 <Col md={6}>
                     <FormGroup>
                         <Label for="exampleEmail">Email</Label>
-                        <Input type="email" name="email" id="exampleEmail" placeholder="Enter your email" />
+                        <Input type="email" name="email" id="exampleEmail" placeholder="Enter your email" required/>
                     </FormGroup>
                 </Col>
             </Row>
@@ -27,7 +27,7 @@ const Example = (props) => {
                 <Col md={6}>
                     <FormGroup>
                         <Label for="phone">Phone</Label>
-                        <Input type="tel" name="phone" id="phone" placeholder="Enter your phone #" />
+                        <Input type="tel" name="phone" id="phone" placeholder="Enter your phone #" required/>
                     </FormGroup>
                 </Col>
                 <Col md={6}>
@@ -39,7 +39,7 @@ const Example = (props) => {
             </Row>
             <FormGroup>
                 <Label for="comments">Project Details</Label>
-                <Input type="textarea" placeholder="Enter project details" />
+                <Input type="textarea" placeholder="Enter project details" required/>
             </FormGroup>
             <Button className="text-dark" style={{
                 background: '#E5C595',
