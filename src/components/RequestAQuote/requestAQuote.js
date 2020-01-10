@@ -40,7 +40,7 @@ const Example = (props) => {
             </Row>
             <FormGroup>
                 <Label for="comments">Project Details</Label>
-                <Input type="textarea" placeholder="Enter project details" required/>
+                <Input name='projectDetails' type="textarea" placeholder="Enter project details" required/>
             </FormGroup>
             <Button className="text-dark" style={{
                 background: '#E5C595',
