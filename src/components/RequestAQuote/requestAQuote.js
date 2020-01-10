@@ -10,6 +10,7 @@ const Example = (props) => {
         }} data-netlify="true" data-netlify-honeypot="bot-field">
             <h1>Request A Quote</h1>
             <Row form>
+            <input type="hidden" name="form-name" value="contact" />
                 <Col md={6}>
                     <FormGroup>
                         <Label for="name">Name</Label>
@@ -45,7 +46,7 @@ const Example = (props) => {
                 background: '#E5C595',
                 boxShadow: '0px 0px 10px 1px #000'
             }} type="submit">Submit</Button>
-            <input type="hidden" name="form-name" value="contact" />
+            
         </Form>
     );
 }
