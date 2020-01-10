@@ -7,7 +7,7 @@ const Example = (props) => {
             margin: '0',
             padding: '0',
             color: '#E5C595',
-        }}>
+        }} data-netlify="true" data-netlify-honeypot="bot-field">
             <h1>Request A Quote</h1>
             <Row form>
                 <Col md={6}>
@@ -45,6 +45,7 @@ const Example = (props) => {
                 background: '#E5C595',
                 boxShadow: '0px 0px 10px 1px #000'
             }}>Submit</Button>
+            <input type="hidden" name="form-name" value="contact" />
         </Form>
     );
 }
