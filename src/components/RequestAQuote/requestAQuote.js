@@ -3,7 +3,7 @@ import { Button, Form, FormGroup, Label, Input, Row, Col } from 'reactstrap';
 
 const Example = (props) => {
     return (
-        <Form className="p-4" style={{
+        <Form name='contact' method='POST' className="p-4" style={{
             margin: '0',
             padding: '0',
             color: '#E5C595',
@@ -44,7 +44,7 @@ const Example = (props) => {
             <Button className="text-dark" style={{
                 background: '#E5C595',
                 boxShadow: '0px 0px 10px 1px #000'
-            }}>Submit</Button>
+            }} type="submit">Submit</Button>
             <input type="hidden" name="form-name" value="contact" />
         </Form>
     );
