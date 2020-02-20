@@ -20,7 +20,7 @@ function homeSection2() {
         <div className="p-3">
           <h1>Are you interested in joining our team?</h1>
           <h3>Head over to our career page for more information!</h3>
-          <h2><Link to="/careers/">Careers</Link></h2>
+          <h2><Link to="/careers/">Join our team</Link></h2>
         </div>
       </div>
       <div
