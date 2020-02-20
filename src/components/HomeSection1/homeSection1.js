@@ -32,23 +32,30 @@ const homeSection1 = () => {
                     <div className="pt-1">
                         <Table borderless>
                             <tbody>
+                            
                                 <tr>
                                     <td>Orlando</td>
-                                    <td>Maitland</td>
-                                    <td>Winter Park</td>
-                                </tr>
-                                <tr>
-                                    <td>Oviedo</td>
+                                    <td>Lake Mary</td>
                                     <td>Apopka</td>
-                                    <td>Sanford</td>
                                 </tr>
                                 <tr>
-                                    <td>Metro West</td>
-                                    <td>Kissimmee</td>
-                                    <td>Geneva</td>
+                                    <td>Altamonte Springs</td>
+                                    <td>Winter Park</td>
+                                    <td>Winter Springs</td>
+                                </tr>
+                                <tr>
+                                    <td>Longwood</td>
+                                    <td>Sanford</td>
+                                    <td>Oviedo</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>and many more...</td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </Table>
+                        
                     </div>
                 </div>
             </div>

@@ -10,6 +10,7 @@ import HomeSection2 from '../components/HomeSection2/homeSection2'
 import HomeSection3 from '../components/HomeSection3/homeSection3'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'video-react/dist/video-react.css';
 
 const IndexPage = () => (
   <Layout>

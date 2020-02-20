@@ -21,20 +21,14 @@ const Example = (props) => {
       <Navbar style={{background: '#006738', margin: '0', padding: '0.5rem'}} dark expand="md" fixed='top'>
         <NavbarBrand style={{color: '#E5C595'}} href="/">DS Landscape & Maintenance, Inc.</NavbarBrand>
         
-        {/* <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Services</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Our Team</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Contact Us</NavLink>
+              <NavLink href="/careers/" style={{color: '#E5C595'}}> <h5 style={{margin: '0'}}>Careers</h5> </NavLink>
             </NavItem>
           </Nav>
-        </Collapse> */}
+        </Collapse>
       </Navbar>
     </div>
   );
