@@ -25,7 +25,7 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/careers/" style={{color: '#E5C595'}}> <h5 style={{margin: '0'}}>Careers</h5> </NavLink>
+              <NavLink href="/careers/" style={{color: '#E5C595'}}> <h5 style={{margin: '0'}}>Join our Team</h5> </NavLink>
             </NavItem>
           </Nav>
         </Collapse>
