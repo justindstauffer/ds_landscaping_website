@@ -19,7 +19,7 @@ const Example = (props) => {
       margin: '0'
     }}>
       <Navbar style={{background: '#006738', margin: '0', padding: '0.5rem'}} dark expand="md" fixed='top'>
-        <NavbarBrand style={{color: '#E5C595'}} href="/">DS Landscape & Maintenance, Inc.</NavbarBrand>
+        <NavbarBrand style={{color: '#E5C595'}} href="/">DS Landscape & Maintenance</NavbarBrand>
         
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
