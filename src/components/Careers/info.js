@@ -4,7 +4,7 @@ import PDF from "../../Assets/EMPLOYEE-APPLICATION-2018.pdf"
 
 function info() {
     return (
-        <div className="text-center">
+        <div className="text-center pt-5 m-3">
             <h1>Interested in joining the DS Landscape Team?</h1>
             <h3>Here is how to apply:</h3>
             <h5>Watch this video in its entirety, following all instructions.</h5>
